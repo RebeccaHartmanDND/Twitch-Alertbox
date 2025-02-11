@@ -1,0 +1,72 @@
+body {
+    background: transparent;
+    overflow: hidden;
+}
+
+#alert-container {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.alert {
+    display: flex;
+    min-width: 500px;
+    align-items: center;
+    background: rgb(255, 255, 255); /* More transparent background */
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: slideDown 0.5s forwards, slideUp 0.5s 9s forwards;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: pre-line;
+    line-height: 1.8;  /* Adjust spacing as needed */
+}
+
+.alert img {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+}
+
+/* Style for alert box and animations */
+.alert {
+    display: flex;
+    min-width: 500px;
+    align-items: center;
+    background: rgb(255, 255, 255); /* More transparent background */
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: slideDown 0.5s forwards, slideUp 0.5s 9s forwards;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: pre-line;
+    line-height: 1.8;  /* Adjust spacing as needed */
+}
+
+.alert img {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-100%); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-100%); }
+}
