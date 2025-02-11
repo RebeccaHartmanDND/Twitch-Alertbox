@@ -36,6 +36,13 @@ This is a simple Twitch Alertbox that displays alerts for Twitch follows, raids,
 1. Open `index.html` in a web browser to test the alerts.
 2. Use the commands `!testfollow` and `!testraid` in your chat to simulate a follow and raid event respectively. These commands will trigger the alert system and play the corresponding sounds.
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Copyright
+
+© 2025 MiseryJane on Twitch
+
 ## Configuration
 
 You can configure the bot further by adjusting the settings in `script.js`, such as changing the alert text, sound files, or even the animation style in `style.css`.
@@ -49,4 +56,5 @@ client.on('follow', (channel, username) => {
 
 client.on('raid', (channel, username, viewers) => {
     showAlert(`${username} raided with ${viewers} viewers!`, 'raid.gif');
-});
+});```
+
