@@ -17,7 +17,7 @@ This is a simple Twitch Alertbox that displays alerts for Twitch follows, raids,
 
 1. Clone the repository or download the files.
     ```bash
-    git clone https://github.com/your-username/twitch-alertbox.git
+    git clone https://github.com/RebeccaHartmanDND/twitch-alertbox.git
     ```
 
 2. Ensure you have the necessary files:
