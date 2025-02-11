@@ -41,6 +41,7 @@ This is a simple Twitch Alertbox that displays alerts for Twitch follows, raids,
 This project is licensed under the MIT License - see the LICENSE file for details.
 Copyright
 
+## Copyright
 © 2025 MiseryJane on Twitch
 
 ## Configuration
